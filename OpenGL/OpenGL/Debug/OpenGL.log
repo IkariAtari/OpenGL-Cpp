@@ -1,2 +1,3 @@
 ﻿  OpenGL.cpp
-  OpenGL.vcxproj -> D:\Projects\OpenGL\OpenGL\Debug\OpenGL.exe
+D:\Projects\OpenGL\OpenGL-Cpp\OpenGL\OpenGL\OpenGL.cpp(67): warning C4715: 'Init': not all control paths return a value
+  OpenGL.vcxproj -> D:\Projects\OpenGL\OpenGL-Cpp\OpenGL\Debug\OpenGL.exe

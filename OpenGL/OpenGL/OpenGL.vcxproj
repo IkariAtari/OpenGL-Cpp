@@ -72,8 +72,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <LibraryPath>D:\OpenGL\lib;$(LibraryPath)</LibraryPath>
-    <IncludePath>D:\OpenGL\includes;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Projects\OpenGL\OpenGL-Cpp\OpenGL\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Projects\OpenGL\OpenGL-Cpp\OpenGL\includes;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -152,6 +152,18 @@
   <ItemGroup>
     <ClCompile Include="Glad.cpp" />
     <ClCompile Include="OpenGL.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="ShaderFragment.cpp" />
+    <ClCompile Include="ShaderVertex.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="ShaderFragment.h" />
+    <ClInclude Include="ShaderVertex.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="basic.frag" />
+    <None Include="Basic.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
